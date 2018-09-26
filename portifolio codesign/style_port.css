@@ -1,0 +1,37 @@
+header {
+	border-style: solid;
+	border-width: 5px
+
+}
+.portifolio{
+	border-style: solid;
+	border-width: 1px
+	padding: 10px;
+	margin: 100px, 100px, 50px, 10px;
+	text-align:center;
+
+}
+section{
+	border-style: solid;
+	border-width: 15px
+	width:1000px;
+	margin:100px, 100px, 100px, 170px;
+	padding: 10px;
+	border-color: black;
+	text-align: center;
+	display: block;
+	color: blue;
+
+}
+nav{
+	border-style: solid;
+	border-width: 5px
+	padding:100px;
+	background-color: transparent; 
+
+}
+.imagem{
+	width: 200px;
+  	margin: 100px;
+  	text-align: center;
+}

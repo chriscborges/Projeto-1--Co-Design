@@ -1,0 +1,38 @@
+.cabecalho{
+	padding-bottom: 6rem;
+	background-color: red;
+
+}
+
+.migalha{
+	background-color: red;
+	justify-content: center;
+	
+}
+
+.img{
+	
+}
+
+
+.parents{
+	background-color: red;
+
+}
+
+.child1{
+	font-family: Georgia,Arial;
+	margin: 1rem;
+	padding: 1rem;
+	font-size: 2rem;
+	display: inline-flex;
+	width: 100%;
+	background-color:purple;
+}
+
+.child2{
+	font-family: Arial;
+	margin: 1rem;
+	padding-bottom: 2rem;
+	background-color: white;
+}

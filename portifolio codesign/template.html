@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="pt-br">
+	<head>
+		<title>{{title}}</title>
+		<meta charset="utf-8">
+		<link href="assets/css/reset.css" rel="stylesheet">
+		<link href="assets/css/style.css" rel="stylesheet">
+		<script src="script.js"></script>
+		<meta charset="utf-g">
+
+		<script src="../lib/app.js"></script>
+    	<script src="../lib/database.js"></script>
+    	<script src="../lib/codes.js"></script>
+    	<script src="../lib/handlebars.js"></script>
+
+	</head>
+
+	<body>
+		 <div class="dropdown">
+ 		 <button onclick="myFunction()" class="dropbtn">Pesquisa</button>
+  			<div id="myDropdown" class="dropdown-content">
+    		<input type="text" placeholder="Procurar.." id="myInput" onkeyup="filterFunction()">
+    		<a href="acionamentos.html">Acionamentos</a>
+		    <a href="#base">Base</a>
+		    <a href="#blog">Blog</a>
+		    <a href="#contact">Contact</a>
+		    <a href="#custom">Custom</a>
+		    <a href="#support">Support</a>
+		    <a href="#tools">Tools</a>
+		</div>
+		
+
+		
+
+		<main>
+
+			<h1>{{h1}}</h1>
+			<div class='{{section}}'>
+
+				<p>{{p}}
+				<img src= "https://picsum.photos/400/200/?random" alt="Projeto de Design de Software">
+				</p>
+
+				<h2>{{h2}}<a href="acionamentos.html"><h3></h3></a></h2>
+			</div>
+		</main>
+
+	</body>
+</html>
